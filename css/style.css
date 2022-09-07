@@ -1,0 +1,37 @@
+
+.avatar, .tecnologia{
+    text-align: center;
+}
+.avatar img{
+    width: 300px;
+    border-radius: 50%;
+}
+.tecnologia img{
+    width: 80%;
+    margin: 40px auto;
+}
+
+
+
+/* Manejo del Video Frame */
+.iframe_video{
+    position: relative;
+    transition: all 1s ease;
+}
+.iframe_video:hover{
+    transform: scale(1.5);
+    z-index: 10;
+}
+
+@media all and (max-width: 580px){
+    #contenedor{
+        width: 90vw;
+        margin: 0 auto;
+    }
+    input#correo{
+        width: 80vw;
+    }
+    input#numero{
+        width: 80vw;
+    }
+}
