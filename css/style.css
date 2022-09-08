@@ -1,17 +1,5 @@
 
-.avatar, .tecnologia{
-    text-align: center;
-}
-.avatar img{
-    width: 300px;
-    border-radius: 50%;
-}
-.tecnologia img{
-    width: 80%;
-    margin: 40px auto;
-}
-
-
+header{ background-color: lawngreen; text-align: center; width: 80%; margin: 80px;}
 
 /* Manejo del Video Frame */
 .iframe_video{
@@ -28,10 +16,5 @@
         width: 90vw;
         margin: 0 auto;
     }
-    input#correo{
-        width: 80vw;
-    }
-    input#numero{
-        width: 80vw;
-    }
+    
 }
