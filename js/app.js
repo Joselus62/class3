@@ -1,6 +1,6 @@
 // A partir de ES6
 let myVar = 10;
-var myVar2 = 1;
+let myVar2 = 1;
 
 const myDoc = document;
 console.log(myDoc);
@@ -52,20 +52,18 @@ let videos = [
 
 ];
 
-let cantidadVideos = myDoc.getElementById("numero");    // input cantidad
-let botonVisualizar = myDoc.getElementById("videos");   // boton submit
+let cantidadVideos = myDoc.getElementById("numero");   
+let botonVisualizar = myDoc.getElementById("videos");  
 
-// console.log(cantidadVideos);
 
 botonVisualizar.addEventListener("click", (event) => {
     event.preventDefault();
     let lista_video = myDoc.getElementById("lista_video");
-    let cantidad = cantidadVideos.value || 0;   // operador cortocircuito OR
+    let cantidad = cantidadVideos.value || 0;  
     let iterador = 0;
 
-    lista_video.innerHTML = ""; //  reset para cada evento click
+    lista_video.innerHTML = ""; 
 
-    // En caso de no ingresar numero valido, menciona error
     if(cantidad <= 0) lista_video.innerHTML += `<li class="list-group-item bg-warning">No has seleccionado videos.</li>`;
 
 

@@ -1,13 +1,12 @@
 
-header{ background-color: lawngreen; text-align: center; width: 80%; margin: 80px;}
+header{ background-color: lime; text-align: center; width: 80%; margin: 80px;}
 
-/* Manejo del Video Frame */
 .iframe_video{
     position: relative;
     transition: all 1s ease;
 }
 .iframe_video:hover{
-    transform: scale(1.5);
+    transform: scale(1.8);
     z-index: 10;
 }
 
@@ -17,4 +16,12 @@ header{ background-color: lawngreen; text-align: center; width: 80%; margin: 80p
         margin: 0 auto;
     }
     
+}
+.boton{
+    background-color: lime;
+    color: darkgreen;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-color: darkgreen;
+    border-radius: 10px;
+    font-size: 18px;
 }
